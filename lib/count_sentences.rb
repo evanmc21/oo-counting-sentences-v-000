@@ -4,6 +4,8 @@ class String
 
   def sentence?
     !!" ".end_with?(".")
+  else
+    true
   end
 
   def question?
